@@ -43,7 +43,7 @@
     <javac srcdir="${src.home}"
           destdir="${work.home}/WEB-INF/classes">
             <classpath>
-              <pathelement path="lib/jbl.jar"/>
+              <pathelement path="lib/javax.servlet-3.0.jar"/>
             </classpath>
     </javac>
     <copy  todir="${work.home}/WEB-INF/classes">
